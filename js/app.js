@@ -5,7 +5,6 @@ var btn = document.getElementById('calc')
 btn.addEventListener('click', calcmedia);
 var faviso = document.querySelector("#close")
 faviso.addEventListener('click', fechar)
-
 function calcmedia(){
     let n1 = Number(en1.value);
     let n2 = Number(en2.value);
