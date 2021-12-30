@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média notas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Média</h1><hr>
+    <div class="cont">
+        <label for="n1">1ª Nota:</label>
+        <input type="text" id="n1">
+        <label for="n2">2ª Nota:</label>
+        <input type="text" id="n2">
+        <label for="n3">3ª Notas</label>
+        <input type="text" id="n3">
+        <button id="calc">Calcular</button>
+    </div>
+    <div id="aviso">
+        <div class="msg">
+            <p>
+                <i class="fas fa-exclamation-triangle" style="color: #FCE100;"></i> ERRO!<br>
+                Leia as instruções e tente novamente
+                <li>Os campos vazio são considerados como 0</li>
+                <li>A nota maxima a ser inserida é 10</li>
+                <li>Não é permitido letras</li>
+                <li>Números negativos não são permitidos</li>
+            </p>
+            <span id="close" title="Fechar" tabindex="1">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
